@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: ratings
-        image: docker.io/marina1997/k8s/24ratings:latest
+        image: docker.io/marina1997/k8s:24ratings
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
