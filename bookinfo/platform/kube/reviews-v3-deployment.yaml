@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: reviews
-        image: 24/reviews-v3
+        image: docker.io/marina1997/k8s/24reviews-v3:latest
         imagePullPolicy: IfNotPresent
         env:
         - name: LOG_DIR
