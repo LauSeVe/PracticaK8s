@@ -1,7 +1,7 @@
 FROM ruby:2.7.1-slim
 RUN apt-get update
 
-RUN cp ./details.rb /opt/microservices
+COPY ./details.rb /opt/microservices
 ENV SERVICE_VERSION=v1
 ENV ENABLE_EXTERNAL_BOOK_SERVICE=true
 EXPOSE 9080
