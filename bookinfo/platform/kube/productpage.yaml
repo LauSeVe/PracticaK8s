@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: docker.io/marina1997/k8s/24productpage:latest
+        image: docker.io/marina1997/k8s:24productpage
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
