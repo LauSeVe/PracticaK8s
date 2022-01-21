@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: reviews
-        image: 24/reviews-v2
+        image: docker.io/marina1997/k8s/24reviews-v2:latest
         imagePullPolicy: IfNotPresent
         env:
         - name: LOG_DIR
