@@ -1,7 +1,8 @@
 FROM python:3.7.7-slim
 RUN apt-get update
+RUN apt-get upgrate 
 
-RUN python3 -m pip install -r requirements.txt
+RUN python3 -m pip install -r ./requirements.txt
 
 EXPOSE 9080
 
